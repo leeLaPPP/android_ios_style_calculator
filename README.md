@@ -3,8 +3,6 @@
 An Android calculator app inspired by the native iOS calculator design.  
 Built using Java and Android Studio with a clean dark theme UI.
 
-![screenshot](screenshot.png) <!-- Replace with an actual screenshot if available -->
-
 ---
 
 ## 📱 Features
