@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
     private void setupOperationButtons() {
         Button plusButton = findViewById(R.id.plus);
         Button minusButton = findViewById(R.id.minus);
-        Button multipleButton = findViewById(R.id.multiple);
-        Button divisionButton = findViewById(R.id.division);
+        Button multipleButton = findViewById(R.id.multi);
+        Button divisionButton = findViewById(R.id.div);
         Button resultButton = findViewById(R.id.result);
 
         plusButton.setOnClickListener(v -> onOperationClick("+"));

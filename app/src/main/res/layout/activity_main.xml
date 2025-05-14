@@ -67,7 +67,7 @@
                 android:text="%" />
 
             <Button
-                android:id="@+id/division"
+                android:id="@+id/div"
                 style="@style/CalculatorButton"
                 android:backgroundTint="#FF9F0A"
                 android:text="÷" />
@@ -100,7 +100,7 @@
                 android:text="9" />
 
             <Button
-                android:id="@+id/multiple"
+                android:id="@+id/multi"
                 style="@style/CalculatorButton"
                 android:backgroundTint="#FF9F0A"
                 android:text="×" />
@@ -182,14 +182,9 @@
 
             <Button
                 android:id="@+id/None"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="4dp"
+                style="@style/CalculatorButton"
                 android:backgroundTint="#333333"
-                android:text="N"
-                android:textSize="24sp"
-                android:textColor="@android:color/white" />
+                android:text="0" />
 
             <Button
                 android:id="@+id/zero"
